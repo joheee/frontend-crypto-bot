@@ -19,8 +19,8 @@ export default function FaqCard(prop: FaqCardInterface) {
       onClick={toggleCard}
     >
       <div className="flex justify-between items-center">
-        <div className="text-xl font-semibold">{prop.question}</div>
-        <div className="text-2xl">
+        <div className="desktop:text-xl font-semibold">{prop.question}</div>
+        <div className="desktop:text-2xl">
           {isOpen ? <FiChevronUp /> : <FiChevronDown />}
         </div>
       </div>
