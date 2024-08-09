@@ -5,7 +5,7 @@ export default {
     extend: {
       "primary-gold": '#FFD700',
       "secondary-dark-gold": '#B8860B',
-      "accent-black": "#222224"
+      "accent-black": "#2a2525"
     },
   },
   plugins: [],
