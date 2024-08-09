@@ -1,7 +1,7 @@
 export default function Bullrun() {
   return (
     <div>
-      <div className="w-[80%] mx-auto flex flex-col gap-12 border border-secondary-dark-gold rounded-xl py-16 bg-[#383838]">
+      <div className="w-[80%] mx-auto flex flex-col gap-12 border border-secondary-dark-gold rounded-xl py-16 bg-secondary-black">
         <div className="flex justify-center ">
           <div className="text-center text-5xl font-frijole">
             <div className="font-frijole text-white">Don't Miss Out On The</div>
