@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function ChooseUs() {
   return (
     <div className="w[90%] mx-auto flex flex-col gap-8 py-16">

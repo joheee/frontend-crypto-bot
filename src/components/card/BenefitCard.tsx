@@ -1,5 +1,3 @@
-import { IconType } from "react-icons";
-
 interface HomeTrustAttribute {
   Icon: string;
   title: string;
