@@ -10,11 +10,17 @@ export default {
         "secondary-black": "#383838",
       },
       fontFamily: {
-        frijole: ["frijole", "sans-serif"], // Replace 'custom' and 'YourCustomFont' as needed
+        frijole: ["frijole", "sans-serif"], // Replace 'frijole' with your custom font name
       },
-    },
-    backgroundImage: {
-      "hero-background": "url('/hero_background.png')",
+      backgroundImage: {
+        "hero-background": "url('/hero_background.png')",
+      },
+      screens: {
+        mobile: "480px",
+        tablet: "768px",
+        desktop: "1024px",
+        "large-desktop": "1280px",
+      },
     },
   },
   plugins: [],

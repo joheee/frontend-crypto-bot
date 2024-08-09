@@ -30,8 +30,8 @@ const faqData: FaqCardInterface[] = [
 
 export default function Faq() {
   return (
-    <div className="h-screen py-20 px-60">
-      <div className="flex justify-center text-5xl font-frijole text-secondary-dark-gold mb-8">
+    <div className="h-screen py-20 px-10 mobile:px-20 tablet:px-32 desktop:px-60">
+      <div className="text-center flex justify-center text-4xl desktop:text-5xl font-frijole text-secondary-dark-gold mb-8">
         Frequently Asked Questions
       </div>
       <div className="grid items-start gap-5">
