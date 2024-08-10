@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import menuData from "./menuData";
 import { Link } from "react-router-dom";
 
