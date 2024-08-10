@@ -1,3 +1,5 @@
+import MetalicButton from "./MetalicButton";
+
 export default function Bullrun() {
   return (
     <div>
@@ -24,9 +26,7 @@ export default function Bullrun() {
           </div>
         </div>
         <div className="flex justify-center">
-          <button className="text-5xl bg-secondary-dark-gold px-20 py-6 rounded-full btn-metallic">
-            Join Now
-          </button>
+          <MetalicButton text="Join Now" onClick={() => {}} />
         </div>
       </div>
     </div>

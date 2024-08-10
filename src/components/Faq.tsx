@@ -1,4 +1,6 @@
 import FaqCard, { FaqCardInterface } from "./card/FaqCard";
+import HeaderText from "./HeaderText";
+import PaddingLayout from "./layout/padding/PaddingLayout";
 
 const faqData: FaqCardInterface[] = [
   {
@@ -30,15 +32,13 @@ const faqData: FaqCardInterface[] = [
 
 export default function Faq() {
   return (
-    <div className="h-screen py-20 px-10 mobile:px-20 tablet:px-32 desktop:px-60">
-      <div className="text-center flex justify-center text-4xl desktop:text-5xl font-frijole text-secondary-dark-gold mb-8">
-        Frequently Asked Questions
-      </div>
+    <PaddingLayout>
+      <HeaderText text="Frequently Asked Questions" />
       <div className="grid items-start gap-5">
         {faqData.map((item, i) => (
           <FaqCard key={i} {...item} />
         ))}
       </div>
-    </div>
+    </PaddingLayout>
   );
 }
