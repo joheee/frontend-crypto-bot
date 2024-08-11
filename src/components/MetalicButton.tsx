@@ -4,7 +4,7 @@ export interface MetalicButtonInterface {
 }
 export default function MetalicButton(prop: MetalicButtonInterface) {
   return (
-    <button onClick={prop.onClick} className="custom-btn btn-3">
+    <button onClick={prop.onClick} className="custom-btn btn-3 w-fit">
       {prop.text}
     </button>
   );
