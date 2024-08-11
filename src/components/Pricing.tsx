@@ -1,6 +1,6 @@
 import HeaderText from "./HeaderText";
 import PaddingLayout from "./layout/padding/PaddingLayout";
-import MetalicButton from "./MetalicButton";
+import PricingCard from "./PricingCard";
 
 export default function Pricing() {
   return (
@@ -14,7 +14,7 @@ export default function Pricing() {
         timelines to suit your trading goals. If you don't see the results,
         we'll give you your money back. We stand by our service 100%
       </div>
-      <MetalicButton text="Join Now" onClick={() => {}} />
+      <PricingCard />
     </PaddingLayout>
   );
 }
