@@ -4,7 +4,7 @@ import PricingCard from "./card/PricingCard";
 
 export default function Pricing() {
   return (
-    <PaddingLayout>
+    <PaddingLayout className="h-screen">
       <HeaderText text="Choose Your Subscription Plan" />
 
       <div className="text-white text-center">
