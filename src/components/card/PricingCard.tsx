@@ -1,4 +1,4 @@
-import MetalicButton from "./MetalicButton";
+import MetalicButton from "../MetalicButton";
 
 export default function PricingCard() {
   return (

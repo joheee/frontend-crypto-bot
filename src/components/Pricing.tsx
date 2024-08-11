@@ -1,6 +1,6 @@
 import HeaderText from "./HeaderText";
 import PaddingLayout from "./layout/padding/PaddingLayout";
-import PricingCard from "./PricingCard";
+import PricingCard from "./card/PricingCard";
 
 export default function Pricing() {
   return (
