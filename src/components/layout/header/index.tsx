@@ -14,6 +14,7 @@ const Header = () => {
   const [sticky, setSticky] = useState(false);
   const handleStickyNavbar = () => {
     if (window.scrollY >= 80) {
+      setOpenIndex(1);
       setSticky(true);
     } else {
       setSticky(false);
@@ -26,6 +27,7 @@ const Header = () => {
   return (
     <>
       <div
+        onClick={handleStickyNavbar}
         className={`header left-0 top-0 z-40 flex w-full items-center ${
           sticky
             ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
