@@ -15,7 +15,7 @@ export default function FaqCard(prop: FaqCardInterface) {
 
   return (
     <div
-      className="bg-secondary-black text-white p-6 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 cursor-pointer"
+      className="bg-secondary-black border border-secondary-dark-gold text-white p-6 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 cursor-pointer"
       onClick={toggleCard}
     >
       <div className="flex justify-between items-center gap-4j">

@@ -1,8 +1,11 @@
 import Benefit from "../components/Benefit";
 import Bullrun from "../components/Bullrun";
 import ChooseUs from "../components/ChooseUs";
+import Faq from "../components/Faq";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Header from "../components/Navbar";
+import Pricing from "../components/Pricing";
 
 export default function Home() {
   return (
@@ -12,6 +15,9 @@ export default function Home() {
       <Benefit />
       <Bullrun />
       <ChooseUs />
+      <Pricing />
+      <Faq />
+      <Footer />
     </div>
   );
 }
