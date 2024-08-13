@@ -32,7 +32,7 @@ const faqData: FaqCardInterface[] = [
 
 export default function Faq() {
   return (
-    <PaddingLayout className="h-screen">
+    <PaddingLayout className="min-h-screen">
       <HeaderText text="Frequently Asked Questions" />
       <div className="grid items-start gap-5">
         {faqData.map((item, i) => (
