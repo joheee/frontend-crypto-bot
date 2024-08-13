@@ -1,3 +1,4 @@
+import { SCALE_HOVER } from "../config/TailwindEffect";
 import MetalicButton from "../MetalicButton";
 
 export interface PricingCardInterface {
@@ -15,7 +16,9 @@ export interface PricingCardInterface {
 export default function PricingCard(prop: PricingCardInterface) {
   const earlyBird = "/early_bird.png";
   return (
-    <div className="relative border border-secondary-dark-gold px-4 py-10 bg-secondary-black text-white mobile:min-w-[315px] tablet:min-w-[400px] desktop:min-w-[315px] rounded-2xl flex flex-col items-center">
+    <div
+      className={`${SCALE_HOVER} relative border border-secondary-dark-gold px-4 py-10 bg-secondary-black text-white mobile:min-w-[315px] tablet:min-w-[400px] desktop:min-w-[315px] rounded-2xl flex flex-col items-center`}
+    >
       {!prop.top_text ? null : (
         <MetalicButton
           className="absolute top-[-17px] px-10 rounded-3xl tracking-wide py-1"
