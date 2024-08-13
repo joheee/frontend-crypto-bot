@@ -1,3 +1,5 @@
+import { SCALE_HOVER } from "../config/TailwindEffect";
+
 interface HomeTrustAttribute {
   Icon: string;
   title: string;
@@ -10,7 +12,9 @@ export default function BenefitCard({
   children,
 }: HomeTrustAttribute) {
   return (
-    <div className="flex flex-col items-center md:gap-6 gap-2 border border-secondary-dark-gold py-10 bg-secondary-black text-white">
+    <div
+      className={`${SCALE_HOVER} flex flex-col items-center md:gap-6 gap-2 border border-secondary-dark-gold py-10 bg-secondary-black text-white`}
+    >
       <div className="px-12">
         <img src={Icon} alt="" className="" />
       </div>

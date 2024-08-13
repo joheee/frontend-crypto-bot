@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
+import { SCALE_HOVER } from "../config/TailwindEffect";
 
 export interface FaqCardInterface {
   question: string;
@@ -15,7 +16,7 @@ export default function FaqCard(prop: FaqCardInterface) {
 
   return (
     <div
-      className="bg-secondary-black border border-secondary-dark-gold text-white p-6 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 cursor-pointer"
+      className={`${SCALE_HOVER} bg-secondary-black border border-secondary-dark-gold text-white p-6 rounded-lg shadow-lg cursor-pointer`}
       onClick={toggleCard}
     >
       <div className="flex justify-between items-center gap-4j">
