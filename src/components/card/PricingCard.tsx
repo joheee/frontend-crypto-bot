@@ -1,14 +1,25 @@
 import MetalicButton from "../MetalicButton";
 
-export default function PricingCard() {
+interface PricingCardInterface {
+  is_first_member?: boolean;
+}
+
+export default function PricingCard(prop: PricingCardInterface) {
   const earlyBird = "/early_bird.png";
   return (
-    <div className="px-4 py-10 bg-secondary-black text-white min-w-[280px] rounded-2xl flex flex-col items-center">
+    <div className="relative px-4 py-10 bg-secondary-black text-white min-w-[280px] rounded-2xl flex flex-col items-center">
+      {!prop.is_first_member ? null : (
+        <MetalicButton
+          className="absolute top-[-12.5px] px-10 rounded-3xl tracking-wide text-lg"
+          text="limited promo!"
+          onClick={() => {}}
+        />
+      )}
       <div className="text-[20px] font-bold mb-5">1 MONTH</div>
 
       <div className="text-[20px] font-extralight text-center">
         <div className="">$199 initially</div>
-        <div className="">$</div>
+        <div className="mt-4">$49</div>
       </div>
 
       <div className="flex flex-col items-center mb-7 relative">

@@ -9,7 +9,11 @@ export default function Footer() {
       <div className="text-white text-center mb-6">
         join our Telegram channel today and stay ahead of the market!
       </div>
-      <MetalicButton onClick={() => {}} text="Join Now" />
+      <MetalicButton
+        className="py-2 px-16 rounded-3xl tracking-wide text-lg"
+        onClick={() => {}}
+        text="Join Now"
+      />
       <div className="text-white text-center mt-16 mb-10 font-extralight">
         © 2024 Crypto Overseerx
       </div>
