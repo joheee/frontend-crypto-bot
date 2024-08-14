@@ -52,7 +52,7 @@ export default function Pricing() {
           timelines to suit your trading goals. If you don't see the results,
           we'll give you your money back. We stand by our service 100%
         </div>
-        <div className="flex flex-wrap gap-8 justify-center">
+        <div className="flex flex-wrap gap-10 justify-center">
           {pricingData.map((item, i) => (
             <PricingCard key={i} {...item} />
           ))}
