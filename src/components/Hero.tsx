@@ -25,7 +25,7 @@ export default function Hero() {
                 onClick={handleJoinNow}
                 className="flex items-center gap-4 bg-secondary-dark-gold text-xl font-bold text-primary-gold hover:bg-primary-gold hover:text-secondary-dark-gold transition-colors delay-75 z-30 relative w-fit rounded-2xl lg:px-12 lg:py-4 md:px-10 md:py-3 px-8 py-2"
               >
-                <FaTelegramPlane className="text-3xl" /> Join Now !
+                <FaTelegramPlane className="text-3xl" /> Join Now ! 
               </button>
             </div>
           </div>
