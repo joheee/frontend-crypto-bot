@@ -12,6 +12,7 @@ import Pricing from "../components/Pricing";
 export default function Home() {
   return (
     <div className="bg-accent-black">
+ 
       <FloatingTelegramButton />
       <Header />
       <Hero />
@@ -22,6 +23,7 @@ export default function Home() {
       <Pricing />
       <Faq />
       <Footer />
+      
     </div>
   );
 }
