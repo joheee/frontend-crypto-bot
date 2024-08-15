@@ -1,9 +1,10 @@
+import PaddingLayout from "./layout/padding/PaddingLayout";
 import MetalicButton from "./MetalicButton";
 
 export default function Bullrun() {
   return (
-    <div>
-      <div className="w-[80%] mx-auto flex flex-col gap-12 border border-secondary-dark-gold rounded-xl py-16 bg-secondary-black">
+    <PaddingLayout>
+      <div className="flex flex-col gap-12 border border-secondary-dark-gold rounded-xl py-16 bg-secondary-black">
         <div className="flex justify-center ">
           <div className="text-center text-5xl font-frijole">
             <div className="font-frijole text-white">Don't Miss Out On The</div>
@@ -26,9 +27,13 @@ export default function Bullrun() {
           </div>
         </div>
         <div className="flex justify-center">
-          <MetalicButton text="Join Now" onClick={() => {}} />
+          <MetalicButton
+            text="Join Now"
+            className="py-2 px-16 rounded-3xl tracking-wide text-lg"
+            onClick={() => {}}
+          />
         </div>
       </div>
-    </div>
+    </PaddingLayout>
   );
 }
