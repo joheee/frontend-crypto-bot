@@ -1,3 +1,4 @@
+import HeaderText from "./HeaderText";
 import PaddingLayout from "./layout/padding/PaddingLayout";
 import MetalicButton from "./MetalicButton";
 
@@ -5,14 +6,15 @@ export default function Bullrun() {
   return (
     <PaddingLayout>
       <div className="flex flex-col gap-12 border border-secondary-dark-gold rounded-xl py-16 bg-secondary-black">
-        <div className="flex justify-center ">
+        {/* <div className="flex justify-center ">
           <div className="text-center text-5xl font-frijole">
             <div className="font-frijole text-white">Don't Miss Out On The</div>
             <div className="font-frijole text-secondary-dark-gold">
               Bull Run!
             </div>
           </div>
-        </div>
+        </div> */}
+          <HeaderText text="Don't Miss Out On The Bull Run" />
         <div className="w-full flex items-center my-6">
           <div className="w-1/2 h-56 flex justify-center">
             <img src="/early_bird.png" alt="" className="h-full w-auto" />
