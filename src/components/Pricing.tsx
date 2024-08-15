@@ -1,6 +1,7 @@
 import HeaderText from "./HeaderText";
 import PaddingLayout from "./layout/padding/PaddingLayout";
-import PricingCard, { PricingCardInterface } from "./card/PricingCard";
+import PricingCard from "./card/PricingCard";
+import { PricingCardInterface } from "./config/interface";
 
 export default function Pricing() {
   const pricingData: PricingCardInterface[] = [
