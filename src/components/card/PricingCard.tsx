@@ -66,7 +66,7 @@ export default function PricingCard(prop: PricingCardInterface) {
 
       <MetalicButton
         className="py-2 px-16 rounded-3xl tracking-wide text-lg"
-        text="Enroll"
+        text="Enroll Now"
         onClick={() => {}}
       />
     </div>
