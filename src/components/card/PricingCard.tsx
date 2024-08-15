@@ -1,17 +1,6 @@
+import { PricingCardInterface } from "../config/interface";
 import { SCALE_HOVER } from "../config/TailwindEffect";
 import MetalicButton from "../MetalicButton";
-
-export interface PricingCardInterface {
-  is_first_member?: boolean;
-  top_text?: string;
-  month_text: string;
-  initial_price_text: string;
-  after_price_text?: string;
-  current_price_text: string;
-  is_per?: boolean;
-  current_price_alt_text: string;
-  is_lifetime?: boolean;
-}
 
 export default function PricingCard(prop: PricingCardInterface) {
   const earlyBird = "/early_bird.png";
