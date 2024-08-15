@@ -19,11 +19,14 @@ const BenefitVariable = {
 
 export default function Benefit() {
   return (
-    <div className="flex justify-between w-[90%] mx-auto flex-col items-center gap-12 py-24">
-      {/* <div className="flex justify-center text-5xl font-frijole text-secondary-dark-gold">
-        Benefit
-      </div> */}
-      <HeaderText text="Benefit" />
+
+    <div
+      id="benefit-section"
+      className="flex justify-between w-[90%] mx-auto flex-col items-center gap-12 py-24 my-8"
+    >
+      <div className="flex justify-center text-5xlz text-secondary-dark-gold">
+        <HeaderText text={"Benefit"} />
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-8 gap-4">
         <BenefitCard

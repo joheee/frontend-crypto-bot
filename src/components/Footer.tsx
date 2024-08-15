@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <PaddingLayout className="flex flex-col items-center">
       <HeaderText text="Request More Information" />
-      <div className="text-white text-center mb-6">
+      <div id="contact-section" className="text-white text-center mb-6">
         join our Telegram channel today and stay ahead of the market!
       </div>
       <MetalicButton
