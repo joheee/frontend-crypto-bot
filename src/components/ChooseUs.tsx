@@ -3,9 +3,11 @@ import HeaderText from "./HeaderText";
 export default function ChooseUs() {
   return (
     <div className="w[90%] mx-auto flex flex-col gap-8 py-16">
+
       <div className="text-center  text-4xl text-white">
         <HeaderText text={"Why Choose Us"} />
       </div>
+
       <div className="flex justify-center items-center gap-8">
         <div className="border border-secondary-dark-gold w-12 h-[1px]"></div>
         <div className="tablet:text-xl text-white tracking-wider my-4 text-lg">
@@ -27,38 +29,38 @@ export default function ChooseUs() {
           <div>
             <ul className="list-disc space-y-2 mt-8 tablet:px-4 tablet:text-sm desktop:px-0 desktop:text-base text-sm">
               <li>
-                <span className="text-secondary-dark-gold">
+                <span className="text-primary-gold">
                   Expertise You Can Trust:
                 </span>{" "}
                 Years if experience and a proven track record in crypto trading
               </li>
               <li>
-                <span className="text-secondary-dark-gold">
+                <span className="text-primary-gold">
                   High-Quality Signals:
                 </span>{" "}
                 Meticulously analyzed signals for profitable trades
               </li>
               <li>
-                <span className="text-secondary-dark-gold">
+                <span className="text-primary-gold">
                   Adaptive Strategies:
                 </span>{" "}
                 Flexible trading strategies tailored to current market
                 condiitons
               </li>
               <li>
-                <span className="text-secondary-dark-gold">
+                <span className="text-primary-gold">
                   Comprehensive Insights:
                 </span>{" "}
                 In-Depth market reports and exclusive tips
               </li>
               <li>
-                <span className="text-secondary-dark-gold">
+                <span className="text-primary-gold">
                   Proven Results:
                 </span>{" "}
                 Join Successful traders who trust our service
               </li>
               <li>
-                <span className="text-secondary-dark-gold">
+                <span className="text-primary-gold">
                   Risk Management:
                 </span>{" "}
                 Strategies designed to maximize returns and protect your
@@ -69,10 +71,12 @@ export default function ChooseUs() {
         </div>
       </div>
       <div className="text-center mt-8 ">
+
         <p className="text-primary-gold tracking-wide  font-extrabold">
           DON'T SETTLE FOR LESS
         </p>
         <p className="text-primary-gold tracking-wide font-extrabold">
+
           INVEST IN THE BEST AND SEE THE DIFFERENCE
         </p>
       </div>

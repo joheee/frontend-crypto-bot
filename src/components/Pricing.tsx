@@ -1,6 +1,7 @@
 import HeaderText from "./HeaderText";
 import PaddingLayout from "./layout/padding/PaddingLayout";
-import PricingCard, { PricingCardInterface } from "./card/PricingCard";
+import PricingCard from "./card/PricingCard";
+import { PricingCardInterface } from "./config/interface";
 
 export default function Pricing() {
   const pricingData: PricingCardInterface[] = [
@@ -9,7 +10,7 @@ export default function Pricing() {
       current_price_alt_text: "month",
       current_price_text: "$99",
       initial_price_text: "$199 Initially",
-      month_text: "1 MONTHS",
+      month_text: "1 MONTH",
       is_first_member: true,
     },
     {
@@ -18,7 +19,7 @@ export default function Pricing() {
       current_price_text: "$250",
       after_price_text: "$499",
       initial_price_text: "$597 Initially",
-      month_text: "2 MONTHS",
+      month_text: "3 MONTHS",
       is_first_member: true,
       top_text: "save $47",
     },

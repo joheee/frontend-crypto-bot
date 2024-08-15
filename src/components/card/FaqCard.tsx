@@ -1,11 +1,8 @@
 import { useState } from "react";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 import { SCALE_HOVER } from "../config/TailwindEffect";
+import { FaqCardInterface } from "../config/interface";
 
-export interface FaqCardInterface {
-  question: string;
-  answer: string;
-}
 
 export default function FaqCard(prop: FaqCardInterface) {
   const [isOpen, setIsOpen] = useState(false);

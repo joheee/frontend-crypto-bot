@@ -1,4 +1,5 @@
-import FaqCard, { FaqCardInterface } from "./card/FaqCard";
+import FaqCard from "./card/FaqCard";
+import { FaqCardInterface } from "./config/interface";
 import HeaderText from "./HeaderText";
 import PaddingLayout from "./layout/padding/PaddingLayout";
 

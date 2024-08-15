@@ -1,9 +1,4 @@
-import React from "react";
-
-export interface PaddingLayoutInterface {
-  children: React.ReactNode | null;
-  className?: string;
-}
+import { PaddingLayoutInterface } from "../../config/interface";
 
 export default function PaddingLayout(prop: PaddingLayoutInterface) {
   return (

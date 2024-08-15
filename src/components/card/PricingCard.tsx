@@ -1,17 +1,6 @@
+import { PricingCardInterface } from "../config/interface";
 import { SCALE_HOVER } from "../config/TailwindEffect";
 import MetalicButton from "../MetalicButton";
-
-export interface PricingCardInterface {
-  is_first_member?: boolean;
-  top_text?: string;
-  month_text: string;
-  initial_price_text: string;
-  after_price_text?: string;
-  current_price_text: string;
-  is_per?: boolean;
-  current_price_alt_text: string;
-  is_lifetime?: boolean;
-}
 
 export default function PricingCard(prop: PricingCardInterface) {
   const earlyBird = "/early_bird.png";
@@ -38,7 +27,7 @@ export default function PricingCard(prop: PricingCardInterface) {
       </div>
 
       <div className="flex flex-col items-center mb-7 relative">
-        <div className="text-[84px]">{prop.current_price_text}</div>
+        <div className="text-[84px] font-semibold">{prop.current_price_text}</div>
         {!prop.is_lifetime ? (
           <div className="">
             {!prop.is_per ? null : <span>per </span>}
@@ -77,7 +66,7 @@ export default function PricingCard(prop: PricingCardInterface) {
 
       <MetalicButton
         className="py-2 px-16 rounded-3xl tracking-wide text-lg"
-        text="Enroll"
+        text="Enroll Now"
         onClick={() => {}}
       />
     </div>

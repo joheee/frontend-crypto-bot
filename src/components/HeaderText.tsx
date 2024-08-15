@@ -1,6 +1,5 @@
-export interface HeaderTextInterface {
-  text: string;
-}
+import { HeaderTextInterface } from "./config/interface";
+
 export default function HeaderText(prop: HeaderTextInterface) {
   return (
     <div className="tracking-wide text-center flex justify-center text-3xl desktop:text-5xl font-bold text-primary-gold mb-8">

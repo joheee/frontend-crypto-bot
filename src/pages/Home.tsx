@@ -1,3 +1,4 @@
+import AboutUs from "../components/AboutUs";
 import Benefit from "../components/Benefit";
 import Bullrun from "../components/Bullrun";
 import ChooseUs from "../components/ChooseUs";
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Benefit />
       <Bullrun />
+      <AboutUs />
       <ChooseUs />
       <Pricing />
       <Faq />
