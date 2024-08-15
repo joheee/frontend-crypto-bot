@@ -1,9 +1,10 @@
 import HeaderText from "./HeaderText";
+import PaddingLayout from "./layout/padding/PaddingLayout";
 
 export default function Bullrun() {
   return (
-    <div className="my-8">
-      <div className="desktop:w-[80%] w-[90%] mx-auto flex flex-col desktop:gap-12 tablet:gap-8 gap-3 border border-secondary-dark-gold rounded-xl py-16 bg-secondary-black">
+    <PaddingLayout>
+      <div className="mx-auto flex flex-col desktop:gap-12 tablet:gap-8 gap-3 border border-secondary-dark-gold rounded-xl py-16 bg-secondary-black">
         <div className="flex justify-center">
           <div className="text-center desktop:text-5xl tablet:text-3xl font-frijole">
             <HeaderText text={"Don't Miss Out On The Bull Run!"} />
@@ -30,6 +31,6 @@ export default function Bullrun() {
           </button>
         </div>
       </div>
-    </div>
+    </PaddingLayout>
   );
 }
