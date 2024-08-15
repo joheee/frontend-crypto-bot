@@ -51,20 +51,20 @@
 
 /* Customize the scrollbar */
 ::-webkit-scrollbar {
-    width: 12px; /* Width of the scrollbar */
+  width: 12px; /* Width of the scrollbar */
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #222224; /* Color of the scrollbar track */
+  background: #222224; /* Color of the scrollbar track */
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #FFD700; /* Color of the scrollbar handle */
+  background: #ffd700; /* Color of the scrollbar handle */
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #B8860B; /* Color of the scrollbar handle when hovered */
+  background: #b8860b; /* Color of the scrollbar handle when hovered */
 }
