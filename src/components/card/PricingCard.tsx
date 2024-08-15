@@ -27,7 +27,7 @@ export default function PricingCard(prop: PricingCardInterface) {
       </div>
 
       <div className="flex flex-col items-center mb-7 relative">
-        <div className="text-[84px]">{prop.current_price_text}</div>
+        <div className="text-[84px] font-semibold">{prop.current_price_text}</div>
         {!prop.is_lifetime ? (
           <div className="">
             {!prop.is_per ? null : <span>per </span>}
