@@ -1,5 +1,4 @@
 import HeaderText from "./HeaderText";
-import MetalicButton from "./MetalicButton";
 
 export default function Bullrun() {
   return (
