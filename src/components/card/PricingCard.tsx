@@ -10,7 +10,8 @@ export default function PricingCard(prop: PricingCardInterface) {
     >
       {!prop.top_text ? null : (
         <MetalicButton
-          className="absolute top-[-17px] text-sm px-10 rounded-3xl tracking-wide py-1"
+          className="absolute top-[-17px] text-sm px-10 rounded-3
+          xl tracking-wide py-1"
           text={prop.top_text}
           onClick={() => {}}
         />

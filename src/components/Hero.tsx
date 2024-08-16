@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <div
       id="hero-section"
-      className="bg-hero-background max-w-screen tablet:bg-cover tablet:h-[40rem] bg-center bg-no-repeat h-[25rem] relative mt-1"
+      className="bg-hero-background max-w-screen tablet:bg-cover tablet:h-[40rem] bg-center bg-no-repeat h-[25rem] relative"
     >
       <div className="w-full h-full bg-black/30 desktop:bg-transparent">
         <div className="mx-auto w-[84%] h-full ">
