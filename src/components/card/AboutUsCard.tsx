@@ -14,7 +14,7 @@ export default function AboutUsCard(data:AboutUsInterface) {
     >
       <div className="flex flex-col items-center tablet:items-start tablet:flex-row tablet:justify-start gap-6">
         <img
-          className="tablet:w-4/6 desktop:w-[150px] w-5/12" 
+          className="tablet:w-[150px] desktop:w-[150px] w-5/12" 
           src={data.image}
           alt={data.image}
         />
