@@ -10,7 +10,7 @@ export default function ChooseUs() {
 
       <div className="flex justify-center items-center gap-8">
         <div className="border border-secondary-dark-gold w-12 h-[1px]"></div>
-        <div className="tablet:text-xl text-white tracking-wider my-4 text-lg">
+        <div className="tablet:text-xl text-white tracking-wider text-center my-4 text-lg">
           The Best Crypto Signal for your Trading
         </div>
         <div className="border border-secondary-dark-gold w-12 h-[1px]"></div>
