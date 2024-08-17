@@ -1,5 +1,6 @@
 import BenefitCard from "./card/BenefitCard";
 import HeaderText from "./HeaderText";
+import PaddingLayout from "./layout/padding/PaddingLayout";
 
 const BenefitVariable = {
   Icon: ["/ethereum_ring.png", "/globe.png", "/globeV.png", "/shield_idk.png"],
@@ -19,10 +20,9 @@ const BenefitVariable = {
 
 export default function Benefit() {
   return (
-
-    <div
+    <PaddingLayout
       id="benefit-section"
-      className="flex justify-between w-[90%] mx-auto flex-col items-center gap-12 py-24 my-8"
+      className="flex justify-between mx-auto flex-col items-center gap-12 "
     >
       <div className="flex justify-center text-5xlz text-secondary-dark-gold">
         <HeaderText text={"Benefit"} />
@@ -57,6 +57,6 @@ export default function Benefit() {
           {BenefitVariable.description[3]}
         </BenefitCard>
       </div>
-    </div>
+    </PaddingLayout>
   );
 }

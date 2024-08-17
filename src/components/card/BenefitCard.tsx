@@ -15,8 +15,8 @@ export default function BenefitCard({
     <div
       className={`${SCALE_HOVER} flex flex-col items-center md:gap-6 gap-2 border border-secondary-dark-gold py-10 bg-secondary-black text-white`}
     >
-      <div className="px-12 tablet:w-4/6 desktop:w-full w-5/12">
-        <img src={Icon} alt="" className="" />
+      <div className="px-12 tablet:w-4/6 desktop:w-full w-8/12">
+        <img src={Icon} alt="" />
       </div>
       <p className="tablet:text-lg text-sm font-Merienda flex justify-center font-bold text-center">
         {title}
