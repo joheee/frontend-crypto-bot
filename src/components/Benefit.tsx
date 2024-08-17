@@ -22,11 +22,9 @@ export default function Benefit() {
   return (
     <PaddingLayout
       id="benefit-section"
-      className="flex justify-between mx-auto flex-col items-center gap-12 "
+      className="flex justify-start mx-auto flex-col items-center"
     >
-      <div className="flex justify-center text-5xlz text-secondary-dark-gold">
-        <HeaderText text={"Benefit"} />
-      </div>
+      <HeaderText text={"Benefit"} />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-8 gap-4">
         <BenefitCard

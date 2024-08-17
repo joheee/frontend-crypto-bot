@@ -6,7 +6,7 @@ import MetalicButton from "./MetalicButton";
 export default function Footer() {
   return (
     <PaddingLayout className="flex flex-col items-center">
-      <HeaderText text="Request More Information" />
+      <HeaderText isLine text="Request More Information" />
       <div id="contact-section" className="text-white text-center mb-6">
         join our Telegram channel today and stay ahead of the market!
       </div>

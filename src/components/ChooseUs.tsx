@@ -1,10 +1,10 @@
 import HeaderText from "./HeaderText";
+import PaddingLayout from "./layout/padding/PaddingLayout";
 
 export default function ChooseUs() {
   return (
-    <div className="w[90%] mx-auto flex flex-col gap-8 py-16">
-
-      <div className="text-center  text-4xl text-white">
+    <PaddingLayout className="flex flex-col gap-8 justify-center min-h-screen">
+      <div className="text-center flex justify-center text-4xl text-white">
         <HeaderText text={"Why Choose Us"} />
       </div>
 
@@ -35,15 +35,11 @@ export default function ChooseUs() {
                 Years if experience and a proven track record in crypto trading
               </li>
               <li>
-                <span className="text-primary-gold">
-                  High-Quality Signals:
-                </span>{" "}
+                <span className="text-primary-gold">High-Quality Signals:</span>{" "}
                 Meticulously analyzed signals for profitable trades
               </li>
               <li>
-                <span className="text-primary-gold">
-                  Adaptive Strategies:
-                </span>{" "}
+                <span className="text-primary-gold">Adaptive Strategies:</span>{" "}
                 Flexible trading strategies tailored to current market
                 condiitons
               </li>
@@ -54,15 +50,11 @@ export default function ChooseUs() {
                 In-Depth market reports and exclusive tips
               </li>
               <li>
-                <span className="text-primary-gold">
-                  Proven Results:
-                </span>{" "}
-                Join Successful traders who trust our service
+                <span className="text-primary-gold">Proven Results:</span> Join
+                Successful traders who trust our service
               </li>
               <li>
-                <span className="text-primary-gold">
-                  Risk Management:
-                </span>{" "}
+                <span className="text-primary-gold">Risk Management:</span>{" "}
                 Strategies designed to maximize returns and protect your
                 ivestment
               </li>
@@ -71,15 +63,13 @@ export default function ChooseUs() {
         </div>
       </div>
       <div className="text-center mt-8 ">
-
         <p className="text-primary-gold tracking-wide  font-extrabold">
           DON'T SETTLE FOR LESS
         </p>
         <p className="text-primary-gold tracking-wide font-extrabold">
-
           INVEST IN THE BEST AND SEE THE DIFFERENCE
         </p>
       </div>
-    </div>
+    </PaddingLayout>
   );
 }

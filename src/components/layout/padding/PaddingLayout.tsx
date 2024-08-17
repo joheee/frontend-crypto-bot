@@ -5,7 +5,7 @@ export default function PaddingLayout(prop: PaddingLayoutInterface) {
     <div
       id={prop.id}
       onClick={prop.onClick}
-      className={` ${prop.className} py-20 px-10 mobile:px-20 tablet:px-32 desktop:px-60`}
+      className={` ${prop.className} py-5 px-10 mobile:px-20 tablet:py-10 tablet:px-32 desktop:px-60`}
     >
       {prop.children}
     </div>

@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div
       id="hero-section"
-      className="bg-hero-background max-w-screen tablet:bg-cover tablet:mt-10 bg-center bg-no-repeat h-[50rem] relative"
+      className="bg-hero-background max-w-screen tablet:bg-cover tablet:mt-10 tablet:mb-40 bg-center bg-no-repeat h-[50rem] relative"
     >
       {/* <div className="w-full h-full bg-black/30  desktop:bg-transparent"> */}
       <div className="w-full h-full bg-gradient-to-t from-accent-black  desktop:bg-transparent">

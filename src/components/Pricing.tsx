@@ -43,7 +43,7 @@ export default function Pricing() {
     },
   ];
   return (
-    <PaddingLayout id="price-section" className="min-h-screen">
+    <PaddingLayout id="price-section" className="min-h-screen flex flex-col items-center">
       <HeaderText text="Choose Your Subscription Plan" />
       <div className="flex flex-col items-center gap-[80px]">
         <div className="text-white text-center max-w-[600px]">
