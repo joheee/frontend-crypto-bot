@@ -6,7 +6,7 @@ export default function FloatingTelegramButton() {
   return (
     <div
       onClick={handleJoinNow}
-      className={`${SCALE_HOVER} bg-primary-gold w-fit h-fit p-4 fixed right-0 top-60 z-10 rounded-tl-lg rounded-bl-lg hover:bg-secondary-dark-gold transition-colors cursor-pointer`}
+      className={`${SCALE_HOVER} bg-primary-gold w-fit h-fit p-4 fixed right-0 top-[380px] z-10 rounded-tl-lg rounded-bl-lg hover:bg-secondary-dark-gold transition-colors cursor-pointer`}
     >
       <FaTelegramPlane className="text-3xl" />
     </div>
