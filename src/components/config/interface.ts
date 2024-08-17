@@ -28,6 +28,8 @@ export interface FaqCardInterface {
 }
 export interface HeaderTextInterface {
   text: string;
+  isLine?: boolean;
+  className?: string;
 }
 export interface AboutUsInterface {
   image: string;
