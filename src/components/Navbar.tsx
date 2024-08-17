@@ -15,7 +15,7 @@ export default function Header() {
       <div
         className={`transform ${
           !hamburger ? "-translate-x-full" : "translate-x-0"
-        } transition-transform ease-in duration-150 fixed flex flex-col font-Merienda w-full h-screen items-center justify-center gap-24 bg-transparent z-40 desktop:hidden`}
+        } transition-transform ease-in duration-150 fixed flex flex-col font-Merienda w-full h-screen items-center justify-center gap-24 bg-accent-black z-50 desktop:hidden`}
       >
         <div
           className="absolute top-0 left-0 text-white z-50 p-6 "
@@ -23,34 +23,41 @@ export default function Header() {
         >
           <IoMdClose className="text-4xl text-primary-gold" />
         </div>
-        <p
+        <a
+          onClick={hamburgerToggle}
           className={
             "hover:text-secondary-dark-gold transition-colors text-primary-gold hover:cursor-pointer text-3xl z-50"
           }
         >
           Home
-        </p>
-        <p
+        </a>
+        <a
+          onClick={hamburgerToggle}
+          href={"#benefit-section"}
           className={
             "hover:text-secondary-dark-gold transition-colors text-primary-gold hover:cursor-pointer text-3xl z-50"
           }
         >
-          Menu
-        </p>
-        <p
+          Benefit
+        </a>
+        <a
+          onClick={hamburgerToggle}
+          href={"#aboutus-section"}
           className={
             "hover:text-secondary-dark-gold transition-colors text-primary-gold hover:cursor-pointer text-3xl z-50"
           }
         >
           About
-        </p>
-        <p
+        </a>
+        <a
+          onClick={hamburgerToggle}
+          href={"#price-section"}
           className={
             "hover:text-secondary-dark-gold transition-colors text-primary-gold hover:cursor-pointer text-3xl z-50"
           }
         >
-          Sessions
-        </p>
+          Price
+        </a>
       </div>
       <div className="bg-transparent py-4">
         <div className="flex justify-between desktop:w-[80%] w-[90%] mx-auto">
@@ -64,7 +71,7 @@ export default function Header() {
             <div
               className={`flex items-center gap-4 w-fit cursor-pointer ${SCALE_HOVER}`}
             >
-              <img src="/logo.png" alt="" className="w-[40px] h-fit" />
+              <img src="/logo.png" alt="" className="w-[40px] h-[40px]" />
               <p className="hover:text-secondary-dark-gold transition-colors text-primary-gold font-extrabold tablet:text-2xl text-xl tablet:tracking-wider tracking-normal">
                 CRYPTO OVERSEERX
               </p>
@@ -72,10 +79,7 @@ export default function Header() {
           </div>
 
           <div className="desktop:flex hidden items-center gap-10 text-md text-primary-gold font-semibold">
-            <a
-              className="cursor-pointer hover:text-secondary-dark-gold transition-colors text-primary-gold hover:cursor-pointer"
-              href={"#hero-section"}
-            >
+            <a className="cursor-pointer hover:text-secondary-dark-gold transition-colors text-primary-gold hover:cursor-pointer">
               Home
             </a>
             <a

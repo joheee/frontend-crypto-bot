@@ -4,7 +4,7 @@ import PaddingLayout from "./layout/padding/PaddingLayout";
 
 export default function AboutUs() {
   return (
-    <PaddingLayout className="min-h-screen">
+    <PaddingLayout id="aboutus-section" className="min-h-screen">
       <HeaderText text="About Crypto Overseerx" />
       <div className="flex flex-col gap-8">
         <AboutUsCard

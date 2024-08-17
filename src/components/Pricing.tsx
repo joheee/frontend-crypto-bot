@@ -43,9 +43,9 @@ export default function Pricing() {
     },
   ];
   return (
-    <PaddingLayout className="min-h-screen">
+    <PaddingLayout id="price-section" className="min-h-screen">
       <HeaderText text="Choose Your Subscription Plan" />
-      <div id="price-section" className="flex flex-col items-center gap-[80px]">
+      <div className="flex flex-col items-center gap-[80px]">
         <div className="text-white text-center max-w-[600px]">
           We offer premium subscription plans tailored to fit your needs. Our
           service is more expensive than most other VIP offerings, and for good
