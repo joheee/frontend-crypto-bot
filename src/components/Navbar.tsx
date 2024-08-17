@@ -11,11 +11,11 @@ export default function Header() {
   };
 
   return (
-    <div>
+    <div className="absolute top-0 z-10 w-screen">
       <div
         className={`transform ${
           !hamburger ? "-translate-x-full" : "translate-x-0"
-        } transition-transform ease-in duration-150 fixed flex flex-col font-Merienda w-full h-screen items-center justify-center gap-24 bg-accent-black z-40 desktop:hidden`}
+        } transition-transform ease-in duration-150 fixed flex flex-col font-Merienda w-full h-screen items-center justify-center gap-24 bg-transparent z-40 desktop:hidden`}
       >
         <div
           className="absolute top-0 left-0 text-white z-50 p-6 "
@@ -52,7 +52,7 @@ export default function Header() {
           Sessions
         </p>
       </div>
-      <div className=" bg-accent-black py-4 shadow-lg">
+      <div className="bg-transparent py-4">
         <div className="flex justify-between desktop:w-[80%] w-[90%] mx-auto">
           <div className="flex min-h-full items-center gap-6">
             <div>
