@@ -19,6 +19,7 @@ export interface PricingCardInterface {
 export interface PaddingLayoutInterface {
   children: React.ReactNode | null;
   className?: string;
+  onClick?: () => void;
 }
 export interface FaqCardInterface {
   question: string;
