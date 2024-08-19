@@ -43,15 +43,25 @@ export default function Pricing() {
     },
   ];
   return (
-    <PaddingLayout id="price-section" className="min-h-screen flex flex-col items-center">
+    <PaddingLayout
+      id="price-section"
+      className="min-h-screen flex flex-col items-center"
+    >
       <HeaderText text="Choose Your Subscription Plan" />
-      <div className="flex flex-col items-center gap-[80px]">
+      <div className="flex flex-col items-center gap-[40px]">
         <div className="text-white text-center max-w-[600px]">
           We offer premium subscription plans tailored to fit your needs. Our
           service is more expensive than most other VIP offerings, and for good
           reason. Enjoy unparalleled quality and expertise, with different
           timelines to suit your trading goals. If you don't see the results,
           we'll give you your money back. We stand by our service 100%
+        </div>
+        <div className="text-white text-center max-w-[600px] mb-[40px]">
+          Money-Back Guarantee: Our service is priced higher than most, and we
+          make no apologies for it. You get what you pay for. If you don’t make
+          money from following our signals within the first 3 months of a
+          quarterly, annual, or lifetime subscription, we offer a full refund.
+          Your success is our priority
         </div>
         <div className="flex flex-wrap gap-10 justify-center">
           {pricingData.map((item, i) => (
