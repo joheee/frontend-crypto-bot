@@ -73,7 +73,7 @@ export default function Header() {
             >
               <img src="/logo.png" alt="" className="w-[40px] h-[40px]" />
               <p className="hover:text-secondary-dark-gold transition-colors text-primary-gold font-extrabold tablet:text-2xl text-xl tablet:tracking-wider tracking-normal">
-                CRYPTO OVERSEERX
+                Crypto OverseerX
               </p>
             </div>
           </div>
