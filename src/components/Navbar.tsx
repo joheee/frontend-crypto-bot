@@ -24,6 +24,7 @@ export default function Header() {
           <IoMdClose className="text-4xl text-primary-gold" />
         </div>
         <a
+          href="#hero-section"
           onClick={hamburgerToggle}
           className={
             "hover:text-secondary-dark-gold transition-colors text-primary-gold hover:cursor-pointer text-3xl z-50"
@@ -47,7 +48,7 @@ export default function Header() {
             "hover:text-secondary-dark-gold transition-colors text-primary-gold hover:cursor-pointer text-3xl z-50"
           }
         >
-          About
+          About Us
         </a>
         <a
           onClick={hamburgerToggle}
@@ -57,6 +58,15 @@ export default function Header() {
           }
         >
           Price
+        </a>
+        <a
+          onClick={hamburgerToggle}
+          href={"#contact-section"}
+          className={
+            "hover:text-secondary-dark-gold transition-colors text-primary-gold hover:cursor-pointer text-3xl z-50"
+          }
+        >
+          Contact Us
         </a>
       </div>
       <div className="bg-transparent py-4">
@@ -79,7 +89,10 @@ export default function Header() {
           </div>
 
           <div className="desktop:flex hidden items-center gap-10 text-md text-primary-gold font-semibold">
-            <a className="cursor-pointer hover:text-secondary-dark-gold transition-colors text-primary-gold hover:cursor-pointer">
+            <a
+              href="#hero-section"
+              className="cursor-pointer hover:text-secondary-dark-gold transition-colors text-primary-gold hover:cursor-pointer"
+            >
               Home
             </a>
             <a

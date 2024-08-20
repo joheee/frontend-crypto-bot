@@ -10,13 +10,15 @@ export default function Footer() {
       <div id="contact-section" className="text-white text-center mb-6">
         join our Telegram channel today and stay ahead of the market!
       </div>
-      <MetalicButton
-        className="py-2 px-16 rounded-3xl tracking-wide text-lg"
-        onClick={handleJoinNow}
-        text="Join Now"
-      />
+      <a href={"#price-section"}>
+        <MetalicButton
+          className="py-2 px-16 rounded-3xl tracking-wide text-lg"
+          onClick={handleJoinNow}
+          text="Join Now"
+        />
+      </a>
       <div className="text-white text-center mt-16 mb-10 font-extralight">
-        © 2024 Crypto Overseerx
+        © 2024 Crypto OverseerX
       </div>
       <div className="bg-white h-[0.5px] w-full"></div>
     </PaddingLayout>
