@@ -4,8 +4,11 @@ import PaddingLayout from "./layout/padding/PaddingLayout";
 
 export default function AboutUs() {
   return (
-    <PaddingLayout id="aboutus-section" className="min-h-screen flex flex-col items-center">
-      <HeaderText text="About Crypto Overseerx"/>
+    <PaddingLayout
+      id="aboutus-section"
+      className="min-h-screen flex flex-col items-center"
+    >
+      <HeaderText text="About Crypto OverseerX" />
       <div className="flex flex-col gap-8">
         <AboutUsCard
           image="/bitcoin_coin.png"

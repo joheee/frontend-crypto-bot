@@ -16,15 +16,15 @@ export default function ChooseUs() {
         <div className="border border-secondary-dark-gold w-12 h-[1px]"></div>
       </div>
       <div className="flex tablet:flex-row flex-col justify-center items-center">
-        <div className="tablet:w-1/2 tablet:h-[25rem] w-4/12 h-auto  flex justify-center">
+        <div className="tablet:w-1/2 tablet:h-[18rem] tablet:mr-8 desktop:mr-0 desktop:h-[25rem] w-4/12 h-auto  flex justify-center">
           <img src="/about-us.png" alt="" className="h-full w-auto" />
         </div>
         <div className="w-1/2 text-white text-center tablet:text-start">
           <div className="desktop:text-4xl tablet:text-3xl text-2xl font-black mt-12 tablet:mt-0">
             We Are{" "}
-            <span className="text-primary-gold font-extrabold">
+            <p className="text-primary-gold font-extrabold block">
               Crypto OverseerX
-            </span>
+            </p>
           </div>
           <div>
             <ul className="list-disc space-y-2 mt-8 tablet:px-4 tablet:text-sm desktop:px-0 desktop:text-base text-sm">
