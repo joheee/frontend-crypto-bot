@@ -20,11 +20,8 @@ export default function ChooseUs() {
           <img src="/about-us.png" alt="" className="h-full w-auto" />
         </div>
         <div className="w-1/2 text-white text-center tablet:text-start">
-          <div className="desktop:text-4xl tablet:text-3xl text-2xl font-black mt-12 tablet:mt-0">
-            We Are{" "}
-            <p className="text-primary-gold font-extrabold block">
-              Crypto OverseerX
-            </p>
+          <div className="text-primary-gold font-extra bold block desktop:text-4xl tablet:text-3xl text-2xl font-black mt-12 tablet:mt-0">
+            We Are Crypto OverseerX
           </div>
           <div>
             <ul className="list-disc space-y-2 mt-8 tablet:px-4 tablet:text-sm desktop:px-0 desktop:text-base text-sm">
