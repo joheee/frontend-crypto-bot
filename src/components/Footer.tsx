@@ -1,4 +1,3 @@
-import handleJoinNow from "./config/handleJoinNow";
 import HeaderText from "./HeaderText";
 import PaddingLayout from "./layout/padding/PaddingLayout";
 import MetalicButton from "./MetalicButton";
@@ -12,8 +11,8 @@ export default function Footer() {
       </div>
       <a href={"#price-section"}>
         <MetalicButton
+          onClick={() => {}}
           className="py-2 px-16 rounded-3xl tracking-wide text-lg"
-          onClick={handleJoinNow}
           text="Join Now"
         />
       </a>

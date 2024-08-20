@@ -1,12 +1,10 @@
 import { FaTelegramPlane } from "react-icons/fa";
 import PaddingLayout from "./layout/padding/PaddingLayout";
 import { SCALE_HOVER } from "./config/TailwindEffect";
-import handleJoinNow from "./config/handleJoinNow";
 
 export default function Cta() {
   return (
     <PaddingLayout
-      onClick={handleJoinNow}
       className={`flex gap-10 items-center justify-center cursor-pointer`}
     >
       <div

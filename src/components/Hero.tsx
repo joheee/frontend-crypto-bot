@@ -1,5 +1,4 @@
 import { FaTelegramPlane } from "react-icons/fa";
-import handleJoinNow from "./config/handleJoinNow";
 import { SCALE_HOVER } from "./config/TailwindEffect";
 
 export default function Hero() {

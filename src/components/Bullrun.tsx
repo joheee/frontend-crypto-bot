@@ -1,4 +1,3 @@
-import handleJoinNow from "./config/handleJoinNow";
 import HeaderText from "./HeaderText";
 import PaddingLayout from "./layout/padding/PaddingLayout";
 
@@ -29,7 +28,6 @@ export default function Bullrun() {
         <div className="flex justify-center tablet:mt-0 mt-4">
           <a href={"#price-section"}>
             <button
-              onClick={handleJoinNow}
               className="custom-btn btn-3 desktop:h-16 desktop:w-72 tablet:h-14 tablet:w-56 h-12 w-48 rounded-full text-xl"
             >
               Join Now
