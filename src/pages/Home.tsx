@@ -19,13 +19,17 @@ export default function Home() {
       <Benefit />
       <Bullrun />
       <AboutUs />
-      <div className="flex justify-center">
+      <a
+        href="https://t.me/CryptoOverseerXFree"
+        target="_blank"
+        className="flex justify-center"
+      >
         <MetalicButton
           className="py-2 px-16 rounded-3xl tracking-wide text-lg"
           text="Free Telegram"
           onClick={() => {}}
         />
-      </div>
+      </a>
       <ChooseUs />
       <Pricing />
       <Faq />

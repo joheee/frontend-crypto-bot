@@ -27,7 +27,9 @@ export default function PricingCard(prop: PricingCardInterface) {
       </div>
 
       <div className="flex flex-col items-center mb-7 relative">
-        <div className="text-[84px] font-semibold">{prop.current_price_text}</div>
+        <div className="text-[84px] font-semibold">
+          {prop.current_price_text}
+        </div>
         {!prop.is_lifetime ? (
           <div className="">
             {!prop.is_per ? null : <span>per </span>}
@@ -64,11 +66,13 @@ export default function PricingCard(prop: PricingCardInterface) {
         ) : null}
       </ul>
 
-      <MetalicButton
-        className="py-2 px-16 rounded-3xl tracking-wide text-lg"
-        text="Join Now"
-        onClick={() => {}}
-      />
+      <a href="https://t.me/CryptoOverseerX" target="_blank">
+        <MetalicButton
+          className="py-2 px-16 rounded-3xl tracking-wide text-lg"
+          text="Join Now"
+          onClick={() => {}}
+        />
+      </a>
     </div>
   );
 }
