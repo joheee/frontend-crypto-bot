@@ -25,7 +25,6 @@ export default function Hero() {
               </div>
               <a href={"#price-section"}>
                 <button
-                  onClick={handleJoinNow}
                   className={`flex items-center gap-4 bg-primary-gold text-xl font-bold text-secondary-black hover:bg-secondary-dark-gold transition-colors delay-75 relative w-fit rounded-2xl lg:px-12 lg:py-4 md:px-10 md:py-3 px-8 py-2 ${SCALE_HOVER}`}
                 >
                   <FaTelegramPlane className="text-3xl" /> Join Now !
