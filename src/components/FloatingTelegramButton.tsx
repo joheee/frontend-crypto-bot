@@ -6,7 +6,6 @@ export default function FloatingTelegramButton() {
   return (
     <Link
       to="/terms-conditions"
-      target="_blank"
       className={`${SCALE_HOVER} bg-primary-gold w-fit h-fit p-4 fixed right-0 top-[200px] z-10 rounded-tl-lg rounded-bl-lg hover:bg-secondary-dark-gold transition-colors cursor-pointer`}
     >
       <FaTelegramPlane className="text-3xl" />
