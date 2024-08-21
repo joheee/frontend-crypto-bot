@@ -3,6 +3,7 @@ import HeaderText from "./HeaderText";
 import HeroTerms from "./HeroTerms";
 import PaddingLayout from "./layout/padding/PaddingLayout";
 import Header from "./Navbar";
+import SubHeaderText from "./SubHeaderText";
 
 export default function Terms() {
   return (
@@ -94,7 +95,11 @@ export default function Terms() {
         </div>
 
         <div id="acknowledgement" className="flex flex-col items-center">
-          <HeaderText text="Acknowledgement of Disclosures and Disclaimers" />
+          <SubHeaderText
+            isLine
+            className="text-2xl desktop:text-3xl"
+            text="Acknowledgement of Disclosures and Disclaimers"
+          />
           <div className="flex flex-col gap-4">
             <div className="">You hereby acknowledge and agree that:</div>
             <ul className="list-disc list-inside space-y-2">
@@ -197,7 +202,11 @@ export default function Terms() {
         </div>
 
         <div id="important-risk" className="flex flex-col items-center">
-          <HeaderText text="Important Risk Notice" />
+          <SubHeaderText
+            isLine
+            className="text-2xl desktop:text-3xl"
+            text="Important Risk Notice"
+          />
           <div className="">
             Trading cryptocurrencies is extremely volatile, carries a high level
             of risk, and is not suitable for everyone. Before deciding to invest
@@ -221,7 +230,11 @@ export default function Terms() {
           id="testimonials-disclaimer"
           className="flex flex-col items-center"
         >
-          <HeaderText text="Testimonials Disclaimer" />
+          <SubHeaderText
+            isLine
+            className="text-2xl desktop:text-3xl"
+            text="Testimonials Disclaimer"
+          />
           <div className="">
             Testimonials found on this website and our social media channels are
             from real clients who have used our services. However, these
