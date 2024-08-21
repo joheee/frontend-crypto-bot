@@ -30,6 +30,7 @@ export interface HeaderTextInterface {
   text: string;
   isLine?: boolean;
   className?: string;
+  id?: string;
 }
 export interface AboutUsInterface {
   image: string;

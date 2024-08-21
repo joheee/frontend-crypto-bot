@@ -2,6 +2,7 @@ import { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { SCALE_HOVER } from "./config/TailwindEffect";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [hamburger, setHamburger] = useState<boolean>(false);
@@ -78,14 +79,15 @@ export default function Header() {
                 onClick={hamburgerToggle}
               />
             </div>
-            <div
+            <Link
+              to="/"
               className={`flex items-center gap-4 w-fit cursor-pointer ${SCALE_HOVER}`}
             >
               <img src="/logo.png" alt="" className="w-[40px] h-[40px]" />
               <p className="hover:text-secondary-dark-gold transition-colors text-primary-gold font-extrabold tablet:text-2xl text-xl tablet:tracking-wider tracking-normal">
                 Crypto OverseerX
               </p>
-            </div>
+            </Link>
           </div>
 
           <div className="desktop:flex hidden items-center gap-10 text-md text-primary-gold font-semibold">
