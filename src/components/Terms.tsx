@@ -1,12 +1,24 @@
 import FloatingTelegramButton from "./FloatingTelegramButton";
+import { useLocation } from "react-router-dom";
 import Footer from "./Footer";
 import HeaderText from "./HeaderText";
 import HeroTerms from "./HeroTerms";
 import PaddingLayout from "./layout/padding/PaddingLayout";
 import Header from "./Navbar";
 import SubHeaderText from "./SubHeaderText";
+import { useEffect } from "react";
 
 export default function Terms() {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const element = document.getElementById(hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [hash]);
   return (
     <div className="bg-accent-black relative overflow-hidden">
       <FloatingTelegramButton />

@@ -10,10 +10,12 @@ import Hero from "../components/Hero";
 import MetalicButton from "../components/MetalicButton";
 import Header from "../components/Navbar";
 import Pricing from "../components/Pricing";
+import PopUpModal from "./PopUpModal";
 
 export default function Home() {
   return (
     <div className="bg-accent-black relative overflow-hidden">
+      <PopUpModal />
       <FloatingTelegramButton />
       <Header />
       <Hero />
