@@ -35,11 +35,11 @@ const faqData: FaqCardInterface[] = [
     answer:
       "While prior trading experience can be helpful, our signals are designed to be straightforward and easy to follow. We also provide market insights and educational resources to help beginners understand the reasoning behind each trade.",
   },
-  {
-    question: "What payment methods do you accept?",
-    answer:
-      "We accept cryptocurrency payments, specifically in the form of USDT (Tether), for a seamless and secure transaction experience.",
-  },
+  // {
+  //   question: "What payment methods do you accept?",
+  //   answer:
+  //     "We accept cryptocurrency payments, specifically in the form of USDT (Tether), for a seamless and secure transaction experience.",
+  // },
   {
     question: "Can I upgrade my subscription plan after signing up?",
     answer:
