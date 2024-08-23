@@ -1,3 +1,4 @@
+import FloatingTelegramButton from "./FloatingTelegramButton";
 import Footer from "./Footer";
 import HeaderText from "./HeaderText";
 import HeroTerms from "./HeroTerms";
@@ -8,6 +9,7 @@ import SubHeaderText from "./SubHeaderText";
 export default function Terms() {
   return (
     <div className="bg-accent-black relative overflow-hidden">
+      <FloatingTelegramButton />
       <Header />
       <HeroTerms />
       <PaddingLayout className="min-h-screen text-white flex flex-col gap-20">
