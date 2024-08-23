@@ -2,6 +2,7 @@ import AboutUs from "../components/AboutUs";
 import Benefit from "../components/Benefit";
 import Bullrun from "../components/Bullrun";
 import ChooseUs from "../components/ChooseUs";
+import ENV from "../components/config/env.config";
 import Faq from "../components/Faq";
 import FloatingTelegramButton from "../components/FloatingTelegramButton";
 import Footer from "../components/Footer";
@@ -22,7 +23,7 @@ export default function Home() {
       <Bullrun />
       <AboutUs />
       <a
-        href="https://t.me/CryptoOverseerXFree"
+        href={ENV.ENV_FREE_TELEGRAM}
         target="_blank"
         className="flex justify-center"
       >

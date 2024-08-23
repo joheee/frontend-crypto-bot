@@ -1,3 +1,4 @@
+import FloatingTelegramButton from "./FloatingTelegramButton";
 import { useLocation } from "react-router-dom";
 import Footer from "./Footer";
 import HeaderText from "./HeaderText";
@@ -20,6 +21,7 @@ export default function Terms() {
   }, [hash]);
   return (
     <div className="bg-accent-black relative overflow-hidden">
+      <FloatingTelegramButton />
       <Header />
       <HeroTerms />
       <PaddingLayout className="min-h-screen text-white flex flex-col gap-20">

@@ -1,9 +1,11 @@
+import ENV from "../config/env.config";
 import { PricingCardInterface } from "../config/interface";
 import { SCALE_HOVER } from "../config/TailwindEffect";
 import MetalicButton from "../MetalicButton";
 
 export default function PricingCard(prop: PricingCardInterface) {
   const earlyBird = "/early_bird.png";
+
   return (
     <div
       className={`${SCALE_HOVER} relative border border-secondary-dark-gold px-4 py-10 bg-secondary-black text-white mobile:min-w-[315px] tablet:min-w-[400px] desktop:min-w-[280px] rounded-2xl flex flex-col items-center`}
@@ -66,7 +68,7 @@ export default function PricingCard(prop: PricingCardInterface) {
         ) : null}
       </ul>
 
-      <a href="https://t.me/CryptoOverseerX" target="_blank">
+      <a href={ENV.ENV_PAID_TELEGRAM} target="_blank">
         <MetalicButton
           className="py-2 px-16 rounded-3xl tracking-wide text-lg"
           text="Join Now"
