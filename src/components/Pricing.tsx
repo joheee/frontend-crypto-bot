@@ -57,7 +57,7 @@ export default function Pricing() {
           we'll give you your money back. We stand by our service 100%
         </div>
         <div className="text-white text-center max-w-[600px] mb-[40px]">
-          Money-Back Guarantee: Our service is priced higher than most, and we
+          <span className="text-primary-gold">Money-Back Guarantee</span>: Our service is priced higher than most, and we
           make no apologies for it. You get what you pay for. If you don’t make
           money from following our signals within the first 3 months of a
           quarterly, annual, or lifetime subscription, we offer a full refund.
