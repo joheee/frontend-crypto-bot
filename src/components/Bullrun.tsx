@@ -30,7 +30,7 @@ export default function Bullrun() {
             <button
               className="custom-btn btn-3 desktop:h-16 desktop:w-72 tablet:h-14 tablet:w-56 h-12 w-48 rounded-full text-xl"
             >
-              Join Now
+              Join Now 
             </button>
           </a>
         </div>
